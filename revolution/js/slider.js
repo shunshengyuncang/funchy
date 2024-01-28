@@ -24,9 +24,9 @@ tpj(document).ready(function() {
                 }
                 ,
                 arrows: {
-                    enable: false,                    
+                    enable: true,                    
                     style: 'zeus',
-                    tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div></div>',
+                    // tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div></div>',
                     rtl: false,
                     hide_onleave: false,
                     hide_onmobile: true,
@@ -53,7 +53,7 @@ tpj(document).ready(function() {
 
                 bullets: {
  
-                    enable: false,
+                    enable: true,
                     style: 'uranus',
                     tmp: '<span class="tp-bullet-inner"></span>',
                     direction: 'horizontal',
